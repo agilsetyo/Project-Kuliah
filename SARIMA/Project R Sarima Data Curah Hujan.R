@@ -14,7 +14,7 @@ library(astsa)
 
 #Input File Curah Hujan Format (.csv)
 
-y <- read.csv('D:/KULIAH/ch.csv')
+y <- read.csv('CURAH HUJAN.csv')
 y <- ts(y$x,start=2018,frequency = 12)
 y 
 #cek stasionerits dalam mean
